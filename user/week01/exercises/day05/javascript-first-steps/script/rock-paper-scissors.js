@@ -1,4 +1,3 @@
-// YOUR CODE HERE >>
 const moves = ["rock", "paper", "scissors"];
 // Function that returns a random move, e.g. rock, paper, scissors:
 function getRandomMove() {
