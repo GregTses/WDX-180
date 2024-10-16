@@ -1,0 +1,71 @@
+body {
+  background-color: #fff;
+  color: #333;
+  font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+  padding: 1em;
+  margin: 0;
+}
+
+/* * {
+  box-sizing: border-box;
+} */
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  /* border: 1px solid #ccc; */
+  /* border-radius: 1em; */
+}
+
+/* div + div {
+  margin-top: 1em;
+} */
+
+/* label span {
+  display: inline-block;
+  text-align: right;
+} */
+
+input,
+textarea {
+  font: 1em sans-serif;
+  width: 250px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+/* input[type="checkbox"],
+input[type="radio"] {
+  width: auto;
+  border: none;
+} */
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+  resize: vertical;
+}
+
+fieldset {
+  width: 250px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+/* button {
+  margin: 20px 0 0 0;
+} */
+
+label {
+  display: inline-block;
+}
+
+p label {
+  width: 100%;
+}
