@@ -1,0 +1,30 @@
+html {
+  font-family: sans-serif;
+}
+
+/* Your CSS below here */
+div {
+  width: 200px;
+  height: 150px;
+  text-align: center;
+  margin: auto;
+  /* The parent font-size is 16px (browser default), 18px is 18/16 in em */
+  font-size: 1.125em;
+  line-height: 150px;
+  /* background-color: red; */
+  color: white;
+  text-shadow: 2px 2px 3px black;
+  border: 1px solid rgb(92, 1, 1);
+  border-radius: 0.8em;
+  background: linear-gradient(
+      145deg,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.15) 100%
+    ),
+    red;
+  box-shadow: 1px 1px 5px black;
+  box-shadow: 2px 2px 4px black,
+    inset 13px 13px 5px -9px rgba(255, 255, 255, 0.7),
+    inset -10px -10px 8px -9px rgba(0, 0, 0, 0.7);
+}

@@ -1,0 +1,50 @@
+html {
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+}
+caption {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 20px;
+}
+table {
+  border-collapse: collapse;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+tbody {
+  border-top: 3px solid black;
+}
+th {
+  background-color: rgb(90, 171, 198);
+  color: white;
+  font-weight: lighter;
+  text-align: left;
+}
+thead th:nth-child(1) {
+  width: 20%;
+}
+thead th:nth-child(2) {
+  width: 15%;
+}
+thead th:nth-child(3) {
+  width: 20%;
+}
+thead th:nth-child(4) {
+  width: 20%;
+}
+thead th:nth-child(5) {
+  width: 15%;
+}
+
+td,
+th {
+  padding-left: 7px;
+}
+
+tbody tr:nth-child(1) {
+  background-color: #eee;
+}
+span {
+  color: red;
+}

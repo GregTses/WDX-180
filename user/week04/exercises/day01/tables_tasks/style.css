@@ -1,0 +1,59 @@
+html {
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+}
+/* thead th:nth-child(1) {
+  width: 0%;
+}
+thead th:nth-child(2) {
+  width: 0%;
+}
+thead th:nth-child(3) {
+  width: 0%;
+}
+
+thead th:nth-child(4) {
+  width: 0%;
+} */
+th {
+  letter-spacing: 1px;
+}
+
+td {
+  letter-spacing: 1px;
+}
+th,
+td {
+  padding: 0.8em;
+  text-align: top;
+}
+
+tbody tr td:nth-child(2),
+tbody tr td:nth-child(3),
+thead tr th:nth-child(2),
+thead tr th:nth-child(3) {
+  text-align: right;
+}
+
+tbody th,
+thead tr {
+  text-align: left;
+}
+tfoot th {
+  text-align: right;
+}
+tfoot td {
+  text-align: left;
+}
+
+table {
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  border-collapse: collapse;
+}
+
+tfoot {
+  border-top: 1px solid #999;
+}
+tbody tr:nth-child(odd) {
+  background-color: #eee;
+}

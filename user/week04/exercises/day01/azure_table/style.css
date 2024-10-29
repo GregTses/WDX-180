@@ -1,0 +1,63 @@
+html {
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+  color: #5a5a5a;
+  letter-spacing: 0.5px;
+}
+caption {
+  text-align: left;
+  margin-bottom: 30px;
+}
+thead th:nth-child(1),
+thead th:nth-child(2),
+thead th:nth-child(3) {
+  border-right: 1px solid white;
+}
+table {
+  border: solid 1px #4d8ee4;
+  box-shadow: 8px 8px 15px rgb(216, 216, 216);
+  border-collapse: collapse;
+}
+thead th {
+  padding: 10px;
+  text-align: left;
+  color: white;
+  background-color: rgb(71, 145, 241);
+  border: 1px solid rgb(89, 157, 247);
+}
+thead th:nth-child(even) {
+  background-color: rgb(32, 112, 216);
+}
+thead th:nth-child(1),
+thead th:nth-child(2),
+thead th:nth-child(3) {
+  border-right: 1px solid white;
+}
+tbody tr th {
+  text-align: left;
+  padding: 20px 10px 20px 10px;
+  border-right: 1px solid rgb(89, 157, 247);
+}
+td {
+  padding: 20px 10px 20px 10px;
+  font-size: 13px;
+}
+td:nth-child(3) {
+  text-decoration: underline;
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+thead th:nth-child(2) {
+  width: 40%;
+}
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 15%;
+}
+a {
+  color: rgb(89, 157, 247);
+}

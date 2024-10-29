@@ -1,0 +1,71 @@
+/* General page styles */
+
+body {
+  margin: 0;
+}
+
+html {
+  font-family: "Helvetica neue", Arial, "sans serif";
+  font-size: 10px;
+  background-color: #ccc;
+}
+h2,
+p {
+  margin: 0;
+}
+
+/* card container */
+.card {
+  width: 35em;
+  height: 22em;
+  margin: 5em auto;
+  background-color: red;
+  border: 0.2em solid black;
+  border-radius: 1.5em;
+}
+
+/* header and footer */
+.card header {
+  box-sizing: border-box;
+  height: 5em;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0)
+  );
+  border-radius: 1.5em 1.5em 0 0;
+}
+.card footer {
+  box-sizing: border-box;
+  height: 5em;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.1)
+  );
+  border-radius: 0 0 1.5em 1.5em;
+}
+h2 {
+  padding-left: 10px;
+  font-size: 2em;
+  line-height: 2.5em;
+}
+footer p {
+  padding-left: 10px;
+  font-size: 1.5em;
+  line-height: 3.5em;
+}
+/* main business card contents */
+.card article img {
+  max-height: 100%;
+  float: right;
+}
+article {
+  color: white;
+  height: 12em;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding-left: 1em;
+}
+article p {
+  padding-top: 2em;
+}
