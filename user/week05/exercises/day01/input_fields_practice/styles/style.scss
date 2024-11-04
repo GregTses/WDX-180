@@ -1,0 +1,46 @@
+@import "./colors";
+
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: $body-bg-color;
+  color: $input-text-color;
+}
+
+input {
+  margin: 1em 1em 1em 0;
+  width: 70%;
+  line-height: 3em;
+  border: 2px solid $border-color;
+  background-color: $body-bg-color;
+  color: $input-text-color;
+  font-size: 1rem;
+  padding-left: 1rem;
+  &:invalid {
+    border-color: $border-error-color;
+  }
+  &:hover {
+    border-color: $border-hover-color;
+  }
+  &:focus {
+    border-color: $border-focus-color;
+    outline: none;
+  }
+  &:not(:focus):invalid ~ span + span {
+    visibility: visible;
+  }
+}
+
+span + span {
+  display: block;
+  visibility: hidden;
+  padding: 0 1rem 0 1rem;
+  width: fit-content;
+  background-color: $border-error-color;
+  line-height: 3em;
+}

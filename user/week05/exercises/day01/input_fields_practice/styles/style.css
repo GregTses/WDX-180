@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #282828;
+  color: #d0d0d0;
+}
+
+input {
+  margin: 1em 1em 1em 0;
+  width: 70%;
+  line-height: 3em;
+  border: 2px solid #4c4c4c;
+  background-color: #282828;
+  color: #d0d0d0;
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+input:invalid {
+  border-color: #862e2a;
+}
+input:hover {
+  border-color: #8f8f8f;
+}
+input:focus {
+  border-color: #7c9dbd;
+  outline: none;
+}
+input:not(:focus):invalid ~ span + span {
+  visibility: visible;
+}
+
+span + span {
+  display: block;
+  visibility: hidden;
+  padding: 0 1rem 0 1rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #862e2a;
+  line-height: 3em;
+}/*# sourceMappingURL=style.css.map */
