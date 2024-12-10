@@ -22,7 +22,7 @@ function updateDateTime() {
 document.querySelector(".wrapper").style.textAlign = "center";
 document.querySelector("html").style.fontFamily = "Sans-Serif";
 // document.querySelector("body").style.cssText =
-//   "display: flex; justify-content:center; ";
+// "display: flex; justify-content:center; ";
 document.querySelector("h1").innerHTML =
   "Asabeneh Yetayeh challenges in <span id='year'>2020</span>";
 document.querySelector("h1 span").style.fontSize = "80px";

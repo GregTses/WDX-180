@@ -1,0 +1,23 @@
+/* body {
+  font-family: sans-serif;
+  max-width: 700px;
+  margin: 0 auto;
+} */
+/* .wrapper {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+} */
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+h2,
+h3 {
+  font-weight: lighter;
+  text-decoration: underline;
+  line-height: 0.5rem;
+}
