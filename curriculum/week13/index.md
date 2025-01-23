@@ -25,7 +25,7 @@ title: Week 13 | Intermediate JavaScript
 
   </h2>
 
-  <span>Updated: 7/1/2025</span>
+  <span>Updated: 9/1/2025</span>
 
   <h2 class="week-controls__next_week">
 
@@ -231,6 +231,8 @@ title: Week 13 | Intermediate JavaScript
 
 
 
+  - **Recommended reading:** read the full articles about [var](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var){:target="_blank"}, [let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let){:target="_blank"} and [const](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const){:target="_blank"} on MDN and share your questions on our Slack forum or leave a comment below.
+
 ### Summary
 
   Here is an AI-generated summary of the lectures:
@@ -272,9 +274,17 @@ title: Week 13 | Intermediate JavaScript
 
   - Practice with Promises and what you've learned from the lectures
 
-  - Build a replica of the [**var/let/const table**](./assets/var-let-const.jpg){:target="_blank"} using HTML and CSS. Sprinkle the table with some JavaScript if you feel like it.
+  - Study the behavior of the following code, and make sure to understand the mechanics behind it and be able to explain this during a coding interview (practice by explaining this to an imaginary person or to a class mate):
 
-  ![](./assets/var-let-const.jpg)
+  ```js
+  console.log(a);
+  var a = 42;
+  console.log(a);
+
+  console.log(b);
+  let b = 42;
+  console.log(b);
+  ```
 
   **IMPORTANT:** Make sure to complete all the tasks found in the **daily Progress Sheet** and update the sheet accordingly. Once you've updated the sheet, don't forget to `commit` and `push`. The progress draft sheet for this day is: **/user/week13/progress/progress.draft.w13.d03.csv**
 
@@ -347,7 +357,38 @@ title: Week 13 | Intermediate JavaScript
 
   On top of that, you want to create a page that includes every single feature with a small description taken from the MDN docs and a small example (containing both the code used and the actual displayed output).
 
-<!-- Exercises -->
+### Exercises
+
+  - Build a replica of the [**var/let/const table**](./assets/var-let-const.jpg){:target="_blank"} using HTML and CSS. Sprinkle the table with some JavaScript if you feel like it.
+
+  ![](./assets/var-let-const.jpg)
+
+  You can use some emojis for the ❌ and ✅ or you can recreate them using plain CSS!
+
+  - [Check Mark](https://emojipedia.org/check-mark-button){:target="_blank"}
+  - [Cross Mark](https://emojipedia.org/cross-mark){:target="_blank"}
+
+  If you go with the CSS route for the symbols, you can use the following HTML entities
+  and find some CSS rules to apply colors, background, borders, circles, etc. to these characters
+
+
+  - `<span>&check;</span>`
+  - `<span>&CircleTimes;</span>`
+
+  Refs:
+
+
+  - [Unicode Character “⊗” (U+2297)](https://www.compart.com/en/unicode/U+2297){:target="_blank"}
+  - [Unicode Character “✓” (U+2713)](https://www.compart.com/en/unicode/U+2713){:target="_blank"}
+
+  You can of course, build the structure in many ways, but the `<table>` element is the most appropriate here.
+  In case you've started building using another element, feel free to do so, and we'll check how different layouts
+  and structure look later on.
+
+  **IMPORTANT:** Make sure to complete all the tasks found in the **daily Progress Sheet** and update the sheet accordingly. Once you've updated the sheet, don't forget to `commit` and `push`. The progress draft sheet for this day is: **/user/week13/progress/progress.draft.w13.d04.csv**
+
+  You should **NEVER** update the `draft` sheets directly, but rather work on a copy of them according to the instructions [found here](../week01/resources/PROGRESS-WORKFLOW.md).
+
 
 ### Extra Resources
 
@@ -374,11 +415,29 @@ title: Week 13 | Intermediate JavaScript
   - **Practice**
   - **Work on Project (Group/Personal)**
 
-<!-- Study Plan -->
+### Study Plan
+
+  Your instructor will share the video lectures with you. Here are the topics covered:
+
+  - **Part 1**:
+    - Variable scope and use of the `window` object as a global namespace.
+    - Naming variables in a way that shows intent and protects our code
+  - **Part 2**:
+    - Variable declarations, function definitions and function expressions
+    - Scoping rules
+
+  Practice on the topics covered and explore the concepts by trying things out in your own code.
 
 <!-- Summary -->
 
-<!-- Exercises -->
+### Exercises
+
+<!-- ### Extra Resources -->
+
+  **IMPORTANT:** Make sure to complete all the tasks found in the **daily Progress Sheet** and update the sheet accordingly. Once you've updated the sheet, don't forget to `commit` and `push`. The progress draft sheet for this day is: **/user/week13/progress/progress.draft.w13.d05.csv**
+
+  You should **NEVER** update the `draft` sheets directly, but rather work on a copy of them according to the instructions [found here](../week01/resources/PROGRESS-WORKFLOW.md).
+
 
 <!-- Extra Resources -->
 
