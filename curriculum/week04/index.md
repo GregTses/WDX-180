@@ -8,7 +8,7 @@ title: Week 04 | CSS 2 & Performance
   <span class="week-prefix">Week 04 |</span> CSS 2 & Performance
 </h1>
 
-{{ SGEN:HEADER_IMAGE }}
+<img src="assets/css.layouts.jpg" />
 
 <div class="week-controls">
 
@@ -25,7 +25,7 @@ title: Week 04 | CSS 2 & Performance
 
   </h2>
 
-  <span>Updated: 28/11/2024</span>
+  <span>Updated: 30/6/2025</span>
 
   <h2 class="week-controls__next_week">
 
@@ -86,7 +86,7 @@ title: Week 04 | CSS 2 & Performance
 
   **IMPORTANT:** Make sure to complete all the tasks found in the **daily Progress Sheet** and update the sheet accordingly. Once you've updated the sheet, don't forget to `commit` and `push`. The progress draft sheet for this day is: **/user/week04/progress/progress.draft.w04.d01.csv**
 
-  You should **NEVER** update the `draft` sheets directly, but rather work on a copy of them according to the instructions [found here](../week01/resources/PROGRESS-WORKFLOW.md).
+  You should **NEVER** update the `draft` sheets directly, but rather work on a copy of them according to the instructions [found here](../modules/curriculum/progress_workflow.md).
 
 
 ### Extra Resources
@@ -152,7 +152,7 @@ title: Week 04 | CSS 2 & Performance
 
   **IMPORTANT:** Make sure to complete all the tasks found in the **daily Progress Sheet** and update the sheet accordingly. Once you've updated the sheet, don't forget to `commit` and `push`. The progress draft sheet for this day is: **/user/week04/progress/progress.draft.w04.d02.csv**
 
-  You should **NEVER** update the `draft` sheets directly, but rather work on a copy of them according to the instructions [found here](../week01/resources/PROGRESS-WORKFLOW.md).
+  You should **NEVER** update the `draft` sheets directly, but rather work on a copy of them according to the instructions [found here](../modules/curriculum/progress_workflow.md).
 
 
 <!-- Extra Resources -->
@@ -223,7 +223,7 @@ title: Week 04 | CSS 2 & Performance
 
   **IMPORTANT:** Make sure to complete all the tasks found in the **daily Progress Sheet** and update the sheet accordingly. Once you've updated the sheet, don't forget to `commit` and `push`. The progress draft sheet for this day is: **/user/week04/progress/progress.draft.w04.d03.csv**
 
-  You should **NEVER** update the `draft` sheets directly, but rather work on a copy of them according to the instructions [found here](../week01/resources/PROGRESS-WORKFLOW.md).
+  You should **NEVER** update the `draft` sheets directly, but rather work on a copy of them according to the instructions [found here](../modules/curriculum/progress_workflow.md).
 
 
 ### Extra Resources
@@ -279,7 +279,7 @@ title: Week 04 | CSS 2 & Performance
 
   **IMPORTANT:** Make sure to complete all the tasks found in the **daily Progress Sheet** and update the sheet accordingly. Once you've updated the sheet, don't forget to `commit` and `push`. The progress draft sheet for this day is: **/user/week04/progress/progress.draft.w04.d04.csv**
 
-  You should **NEVER** update the `draft` sheets directly, but rather work on a copy of them according to the instructions [found here](../week01/resources/PROGRESS-WORKFLOW.md).
+  You should **NEVER** update the `draft` sheets directly, but rather work on a copy of them according to the instructions [found here](../modules/curriculum/progress_workflow.md).
 
 
 ### Extra Resources
@@ -354,7 +354,7 @@ title: Week 04 | CSS 2 & Performance
 
   **IMPORTANT:** Make sure to complete all the tasks found in the **daily Progress Sheet** and update the sheet accordingly. Once you've updated the sheet, don't forget to `commit` and `push`. The progress draft sheet for this day is: **/user/week04/progress/progress.draft.w04.d05.csv**
 
-  You should **NEVER** update the `draft` sheets directly, but rather work on a copy of them according to the instructions [found here](../week01/resources/PROGRESS-WORKFLOW.md).
+  You should **NEVER** update the `draft` sheets directly, but rather work on a copy of them according to the instructions [found here](../modules/curriculum/progress_workflow.md).
 
 
 <!-- Extra Resources -->

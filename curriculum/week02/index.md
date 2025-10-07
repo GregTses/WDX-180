@@ -1,10 +1,44 @@
 ---
-title: Week 2
+title: Week 2 | HTML, Accessibility & Git
 ---
 
-# Week 2 | HTML, Accessibility & Git
+<hr class="mb-0">
 
-_(Updated: 18/09/2023)_
+<h1 id="{{ Week 16-Intermediate JavaScript | slugify }}">
+  <span class="week-prefix">Week 2 |</span> HTML, Accessibility & Git
+</h1>
+
+<div class="week-controls">
+
+  {% assign week_num = 2 | to_integer %}
+
+  <h2 class="week-controls__previous_week">
+
+    {% if week_num > 0 %}
+
+      {% assign previous_week_num = 2 | to_integer | minus: 1 | prepend: '00' | slice: -2, 2 %}
+
+      <a href="../week{{ previous_week_num }}">Week {{ previous_week_num }} &#8678;</a>
+    {% endif %}
+
+  </h2>
+
+  <span>Updated: 30/06/2025</span>
+
+  <h2 class="week-controls__next_week">
+
+    {% if week_num <= 36 %}
+
+      {% assign next_week_num = 2 | to_integer | plus: 1 | prepend: '00' | slice: -2, 2 %}
+
+      <a href="../week{{ next_week_num }}">&#8680; Week {{ next_week_num }}</a>
+    {% endif %}
+
+  </h2>
+
+</div>
+
+---
 
 <!-- Week 2 - Day 1 | Git -->
 <details markdown="1">
@@ -151,7 +185,7 @@ _(Updated: 18/09/2023)_
 
 ### Exercises
 
-  Make sure to complete all the tasks found in the **daily Progress Sheet** and update the sheet accordingly. Once you've updated the sheet, don't forget to `commit` and `push`. The progress draft sheets are found in the `/user/weekXX/progress` folder, for example `user/week01/progress/progress.draft.w01.d01.csv`. You should **NEVER** update the `draft` sheets directly, but rather work on a copy of them according to the instructions [found here](../week01/resources/PROGRESS-WORKFLOW.md).
+  Make sure to complete all the tasks found in the **daily Progress Sheet** and update the sheet accordingly. Once you've updated the sheet, don't forget to `commit` and `push`. The progress draft sheets are found in the `/user/weekXX/progress` folder, for example `user/week01/progress/progress.draft.w01.d01.csv`. You should **NEVER** update the `draft` sheets directly, but rather work on a copy of them according to the instructions [found here](../modules/curriculum/progress_workflow.md).
 
 ### [Extra Resources](EXTRAS.md)
 
@@ -225,7 +259,7 @@ _(Updated: 18/09/2023)_
 
 ### Exercises
 
-  Make sure to complete all the tasks found in the **daily Progress Sheet** and update the sheet accordingly. Once you've updated the sheet, don't forget to `commit` and `push`. The progress draft sheets are found in the `/user/weekXX/progress` folder, for example `user/week01/progress/progress.draft.w01.d01.csv`. You should **NEVER** update the `draft` sheets directly, but rather work on a copy of them according to the instructions [found here](../week01/resources/PROGRESS-WORKFLOW.md).
+  Make sure to complete all the tasks found in the **daily Progress Sheet** and update the sheet accordingly. Once you've updated the sheet, don't forget to `commit` and `push`. The progress draft sheets are found in the `/user/weekXX/progress` folder, for example `user/week01/progress/progress.draft.w01.d01.csv`. You should **NEVER** update the `draft` sheets directly, but rather work on a copy of them according to the instructions [found here](../modules/curriculum/progress_workflow.md).
 
 ### [Extra Resources](EXTRAS.md)
 
@@ -290,7 +324,7 @@ _(Updated: 18/09/2023)_
     - **Description:** In our table assessment, we provide you with some data on the planets in our solar system, and get you to structure it into an HTML table.
     - **Submission:** You should place the files related to this exercise in the `user/week02/exercises/day03/Structuring_planet_data` folder.
 
-  Make sure to complete all the tasks found in the **daily Progress Sheet** and update the sheet accordingly. Once you've updated the sheet, don't forget to `commit` and `push`. The progress draft sheets are found in the `/user/weekXX/progress` folder, for example `user/week01/progress/progress.draft.w01.d01.csv`. You should **NEVER** update the `draft` sheets directly, but rather work on a copy of them according to the instructions [found here](../week01/resources/PROGRESS-WORKFLOW.md).
+  Make sure to complete all the tasks found in the **daily Progress Sheet** and update the sheet accordingly. Once you've updated the sheet, don't forget to `commit` and `push`. The progress draft sheets are found in the `/user/weekXX/progress` folder, for example `user/week01/progress/progress.draft.w01.d01.csv`. You should **NEVER** update the `draft` sheets directly, but rather work on a copy of them according to the instructions [found here](../modules/curriculum/progress_workflow.md).
 
 ### [Extra Resources](EXTRAS.md)
 
@@ -359,7 +393,7 @@ _(Updated: 18/09/2023)_
 
 ### Exercises
 
-  Make sure to complete all the tasks found in the **daily Progress Sheet** and update the sheet accordingly. Once you've updated the sheet, don't forget to `commit` and `push`. The progress draft sheets are found in the `/user/weekXX/progress` folder, for example `user/week01/progress/progress.draft.w01.d01.csv`. You should **NEVER** update the `draft` sheets directly, but rather work on a copy of them according to the instructions [found here](../week01/resources/PROGRESS-WORKFLOW.md).
+  Make sure to complete all the tasks found in the **daily Progress Sheet** and update the sheet accordingly. Once you've updated the sheet, don't forget to `commit` and `push`. The progress draft sheets are found in the `/user/weekXX/progress` folder, for example `user/week01/progress/progress.draft.w01.d01.csv`. You should **NEVER** update the `draft` sheets directly, but rather work on a copy of them according to the instructions [found here](../modules/curriculum/progress_workflow.md).
 
 ### [Extra Resources](EXTRAS.md)
 
@@ -482,7 +516,7 @@ _(Updated: 18/09/2023)_
 
   Now it's time to gather all this knowledge around HTML _(and GitHub)_, build your own (accessible) Blog and take it online. Follow the instructions found [here](./exercises/lets_create_a_weblog/index.md). You might need to spend a few extra hours during the weekend to improve and finalize your Blog.
 
-  Make sure to complete all the tasks found in the **daily Progress Sheet** and update the sheet accordingly. Once you've updated the sheet, don't forget to `commit` and `push`. The progress draft sheets are found in the `/user/weekXX/progress` folder, for example `user/week01/progress/progress.draft.w01.d01.csv`. You should **NEVER** update the `draft` sheets directly, but rather work on a copy of them according to the instructions [found here](../week01/resources/PROGRESS-WORKFLOW.md).
+  Make sure to complete all the tasks found in the **daily Progress Sheet** and update the sheet accordingly. Once you've updated the sheet, don't forget to `commit` and `push`. The progress draft sheets are found in the `/user/weekXX/progress` folder, for example `user/week01/progress/progress.draft.w01.d01.csv`. You should **NEVER** update the `draft` sheets directly, but rather work on a copy of them according to the instructions [found here](../modules/curriculum/progress_workflow.md).
 
 ### [Extra Resources](EXTRAS.md)
 

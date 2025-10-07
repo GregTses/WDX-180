@@ -1,11 +1,11 @@
 ---
-title: Week 19 | Node JS
+title: Week 19 | Introduction to Node.js
 ---
 
 <hr class="mb-0">
 
-<h1 id="{{ Week 19-Node JS | slugify }}">
-  <span class="week-prefix">Week 19 |</span> Node JS
+<h1 id="{{ Week 19-Introduction to Node.js | slugify }}">
+  <span class="week-prefix">Week 19 |</span> Introduction to Node.js
 </h1>
 
 <img src="assets/Intro.to.Node.jpg" />
@@ -25,7 +25,7 @@ title: Week 19 | Node JS
 
   </h2>
 
-  <span>Updated: 16/2/2025</span>
+  <span>Updated: 24/2/2025</span>
 
   <h2 class="week-controls__next_week">
 
@@ -178,7 +178,7 @@ title: Week 19 | Node JS
 
   **IMPORTANT:** Make sure to complete all the tasks found in the **daily Progress Sheet** and update the sheet accordingly. Once you've updated the sheet, don't forget to `commit` and `push`. The progress draft sheet for this day is: **/user/week19/progress/progress.draft.w19.d01.csv**
 
-  You should **NEVER** update the `draft` sheets directly, but rather work on a copy of them according to the instructions [found here](../week01/resources/PROGRESS-WORKFLOW.md).
+  You should **NEVER** update the `draft` sheets directly, but rather work on a copy of them according to the instructions [found here](../modules/curriculum/progress_workflow.md).
 
 
 <!-- Extra Resources -->
@@ -218,11 +218,107 @@ title: Week 19 | Node JS
 
 <hr class="mt-1">
 
-<!-- Week 19 - Day 3 | TBA -->
+<!-- Week 19 - Day 3 | The FileSystem (fs) Module -->
 <details markdown="1">
   <summary>
     <h2>
-      <span class="summary-day">Week 19 - Day 3</span> | TBA</h2>
+      <span class="summary-day">Week 19 - Day 3</span> | The FileSystem (fs) Module</h2>
+  </summary>
+
+### Schedule
+
+  - **Study the suggested material**
+  - **Practice on the topics and share your questions**
+
+### Study Plan
+
+  1. **Continue studying** the Node.js introductory presentation from where we left off during our last lecture: The `fs` module: [https://learn.js.org/learn/nodejs/introduction.html#/15](https://learn.js.org/learn/nodejs/introduction.html#/15){:target="_blank"}
+
+  2. Make sure to read and practice **building a basic web server** using Node.js according to the [official document](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs#an-example-nodejs-application)_blank.
+
+  3. **Install [https://github.com/workshopper/learnyounode](https://github.com/workshopper/learnyounode)** *(if you haven’t done it already)* **and complete exercises 3, 4 and 5 (MY FIRST I/O, MY FIRST ASYNC I/O, FILTERED LS)**
+
+<!-- Summary -->
+
+### Exercises
+
+  - **Create a Nodejs app that displays a list of programming languages along with information about them (creator(s), date of birth, etc.)**  
+    - `node lang.js` => be creative with the output 🙂
+
+  - **Create a Todo App using Nodejs:**  
+    - You should be able to run the app from the command line:  
+      - *node todo.js “Buy milk”*  
+      - *node todo.js “Go to the gym”*  
+    - The app should then store the Task (“Buy milk”) along with the date in a JSON file (todo.json)  
+    - When you run *node todo.js* (without any arguments) you should get a list of the todo tasks that are stored in the JSON file
+
+  **IMPORTANT:** Make sure to complete all the tasks found in the **daily Progress Sheet** and update the sheet accordingly. Once you've updated the sheet, don't forget to `commit` and `push`. The progress draft sheet for this day is: **/user/week19/progress/progress.draft.w19.d03.csv**
+
+  You should **NEVER** update the `draft` sheets directly, but rather work on a copy of them according to the instructions [found here](../modules/curriculum/progress_workflow.md).
+
+
+<!-- Extra Resources -->
+
+<!-- Sources and Attributions -->
+  
+</details>
+
+<hr class="mt-1">
+
+<!-- Week 19 - Day 4 | Node.JS Practice -->
+<details markdown="1">
+  <summary>
+    <h2>
+      <span class="summary-day">Week 19 - Day 4</span> | Node.JS Practice</h2>
+  </summary>
+
+### Schedule
+
+  - **Study the suggested material**
+  - **Practice on the topics and share your questions**
+
+### Study Plan
+
+  [![](./assets/learnyounode.png)](){:target="_blank"}
+
+  It's time to continue practicing your `Node.js` skills using `learnyounode`.
+
+  Make sure that you have the package installed, up and running via `learnyounode` in the terminal. We suggest that you complete the following 4 steps:
+
+  - My first I/O
+  - My first async I/O
+  - Filtered LS
+  - Make it Modular
+
+  ![](./assets/learnyounode.exercises.jpg)
+
+  Today, we also suggest to focus on the `fs` module and practice what you've learned yesterday.
+
+  Questions? Cool things that you've learned? Post them on Slack or in the comments section below.
+
+  Above all, enjoy!
+
+<!-- Summary -->
+
+<!-- Exercises -->
+
+### Extra Resources
+
+  Have some extra time and energy to devote on JavaScript?
+
+  You can try completing a challenge from here: [https://javascript30.com/](https://javascript30.com/){:target="_blank"}
+
+<!-- Sources and Attributions -->
+  
+</details>
+
+<hr class="mt-1">
+
+<!-- Week 19 - Day 5 | The HTTP Module -->
+<details markdown="1">
+  <summary>
+    <h2>
+      <span class="summary-day">Week 19 - Day 5</span> | The HTTP Module</h2>
   </summary>
 
 ### Schedule
@@ -235,78 +331,51 @@ title: Week 19 | Node JS
 
   Your instructor will share the video lectures with you. Here are the topics covered:
 
-  - **Part 1:** 
-  - **Part 2:**
+  - **Part 1:** Node.js Modules, exploring the `fs` module and the MAKE IT MODULE exercise from [learnyounode](https://github.com/workshopper/learnyounode){:target="_blank"} (90min)
 
-  You can find the lecture code [here](){:target="_blank"}
+  - **Part 2:** Node.js, the HTTP module, `localhost` and creating a web server (120min)
 
-  **Lecture Notes & Questions:**
+  You can find the lecture diagrams and code [here](https://github.com/in-tech-gration/WDX-180/tree/main/curriculum/week19/assets/day05){:target="_blank"}
 
-  **References & Resources:**
+  **Study and practice:**
 
-<!-- Summary -->
-
-<!-- Exercises -->
-
-<!-- Extra Resources -->
-
-<!-- Sources and Attributions -->
-  
-</details>
-
-<hr class="mt-1">
-
-<!-- Week 19 - Day 4 | TBA -->
-<details markdown="1">
-  <summary>
-    <h2>
-      <span class="summary-day">Week 19 - Day 4</span> | TBA</h2>
-  </summary>
-
-### Schedule
-
-  - **Study the suggested material**
-  - **Practice on the topics and share your questions**
-
-<!-- Study Plan -->
-
-<!-- Summary -->
-
-<!-- Exercises -->
-
-<!-- Extra Resources -->
-
-<!-- Sources and Attributions -->
-  
-</details>
-
-<hr class="mt-1">
-
-<!-- Week 19 - Day 5 | TBA -->
-<details markdown="1">
-  <summary>
-    <h2>
-      <span class="summary-day">Week 19 - Day 5</span> | TBA</h2>
-  </summary>
-
-### Schedule
-
-  - **Watch the lectures**
-  - **Study the suggested material**
-  - **Practice on the topics and share your questions**
-
-### Study Plan
-
-  Your instructor will share the video lectures with you. Here are the topics covered:
-
-  - **Part 1:** 
-  - **Part 2:**
-
-  You can find the lecture code [here](){:target="_blank"}
-
-  **Lecture Notes & Questions:**
+  - [**Basic NodeJS web server**](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs){:target="_blank"}  
+  - **Solve the rest of the learnyounode exercises**  
+    - [**Node.js fs.readdir() Method**](https://www.geeksforgeeks.org/node-js-fs-readdir-method/){:target="_blank"}  
+  - **Web server:**  
+    - **Check what the request.path is all about?**  
+    - **require the path module and try again?**  
+  - **Exercise:**  
+    - Require the os module  
+    - Or (simpler) get the total and free memory   
+    - run the cpus() method to get info about your computer’s CPUs  
+    - Create an HTML page that displays the memory/CPU info and response.end()  
+    - inspiration: [CPU info page](https://codepen.io/leonalkalai/pen/bGZyzZe?editors=0010){:target="_blank"}
 
   **References & Resources:**
+
+  - **I/O => Input/Output**  
+  - [**typeof Operator**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof){:target="_blank"} **(unary)**  
+  - **Operators: unary, binary, ternary**  
+    - **unary: OPERATOR operates on a single value (OPERAND) typeof VALUE**  
+    - **binary: OPERATOR operates on two values (OPERANDS) value + value**  
+    - **ternary: OPERATOR operates on three values (OPERANDS) value ? value1 : value2**  
+  - **VSCode:** *(for Mac, Ctrl => Cmd)*  
+    - **CTRL + SHIFT + L # to select all at once**  
+    - **CTRL + D			   # to select one by one**  
+  - **2 ways of importing and exporting Modules in Nodejs**  
+    - module.exports + required() (CommonJS => NodeJS)  
+    - export + import (ES Modules, ESM => Browser)  
+    - These days, both the Browser and Nodejs decided to use the ESM  
+  - **Error-first Callback (the idiomatic convention)**  
+    - [**Error-First Callback in Node.js**](https://www.geeksforgeeks.org/error-first-callback-in-node-js/){:target="_blank"}  
+    - [***Why does node prefer error-first callback?***](https://stackoverflow.com/questions/40511513/why-does-node-prefer-error-first-callback){:target="_blank"}  
+  - **Node.js HTTP server:**  
+    - The **request** object (1st parameter) is all about the information coming from the Browser (web client) (request.url, etc.)  
+    - The **response** object (2nd parameter) is all about the response the server is about to send back to the client (FE)  
+  - [HTTP Status Codes](https://www.webfx.com/web-development/glossary/http-status-codes/){:target="_blank"}  
+  - The technical term for **'text/html'** is MIME type  
+  - **Treat the request object as a READ-ONLY value**
 
 <!-- Summary -->
 

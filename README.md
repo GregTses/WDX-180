@@ -57,8 +57,15 @@
     - `GitHub` is a web-based platform for `version control` & collaboration on code projects.
   - [StackOverflow](https://stackoverflow.com/){:target="_blank"}
     - `StackOverflow` is a Q&A site for programmers.
+  - [Netlify](https://www.netlify.com/){:target="_blank"}
+    - `Netlify` lets you host your websites and applications for free.
   - [Codesandbox](https://codesandbox.io/){:target="_blank"}
     - An online code editor that gives you the ability to share your code with a single web address.
+
+  **Want more?**
+  
+  - [Codepen](https://codepen.io){:target="_blank"}
+    - Another popular code editor that gives you the ability to share your code with a single web address.
 </details>
 
 <!-- SETUP -->
@@ -240,6 +247,25 @@
     Hungry for more tips? We have a whole section full of productivity and learning tips [right here](resources/productivity.md){:target="_blank"}.
 </details>
 
+<!-- HOW TO RUN WDX LOCALLY -->
+<details markdown="1">
+  <summary><h3>How to run WDX locally</h3></summary>
+
+  ---
+
+  - Clone the GitHub repository locally:
+    - Via SSH (recommended): `git clone git@github.com:in-tech-gration/WDX-180.git` 
+    - Via HTTPS: `git clone https://github.com/in-tech-gration/WDX-180.git`
+  - Change into the WDX directory: `cd WDX-180`
+  - Run: `npm install`
+
+  Once you have followed the steps above (which was a one-time thing)
+  you can launch the app using the following command:
+
+  - `npm run serve:jekyll`
+
+</details>
+
 ### Finished setting everything up? 
 
 [**➡️ LET'S GET STARTED**](/curriculum/index.md)
@@ -293,6 +319,7 @@ Our lovely contributors _(feel free to give them a follow/subscribe/like as a ge
 - **Mubashra Irshad**: [GitHub](https://github.com/mubashra21c)
 - [**PlethoraThemes**](https://plethorathemes.com/)
 - **Shariar Shakhawat**: [GitHub](https://github.com/Sha-Shak) / [Twitter](https://twitter.com/shahriartweets)
+- **Dimitris**: [GitHub](https://github.com/dimitriost1)
 
 ---
 
